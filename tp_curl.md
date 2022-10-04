@@ -39,6 +39,9 @@ HTTP/1.1 200 OK                                                                 
 
 ## Faire une appel curl en envoyant une basic authentication en utilisant 2 méthodes différentes : copier les commandes exécutées et indiquer la requête et la réponse à chaque fois 
 
+curl https://webhook.site/6f594809-a4b4-483e-841b-0c3b0a00edfe -u "diego:diego"
+curl https://webhook.site/6f594809-a4b4-483e-841b-0c3b0a00edfe -H "Authorization: Basic token"
+
 
 ## Exécuter la commande suivante avec la méthode GET puis indiquer la réponse : curl https://demo.api-platform.com/books/07dd4786-aaa7-4d08-a467-076b76f1d1b6 
 
